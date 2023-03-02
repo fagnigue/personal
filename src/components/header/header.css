@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  background: var(--light);
+}
+
+.invisible {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transition: all .3s ease !important;
+}
+
+.visible {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition: all .3s ease !important;
+}
+
+.mobile-visible {
+  opacity: 1 !important;
+  transition: all 4s ease !important;
+}
+
+.mobile-invisible {
+  opacity: 0 !important;
+  transition: all 1s ease !important;
+}
+
+
